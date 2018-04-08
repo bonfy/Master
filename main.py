@@ -44,11 +44,11 @@ class Talk:
 
     @property
     def stars(self):
-        return self.star * '\u2b50'
+        return self.star * '\u2b50' + (5-self.star) * '\u22C6'
 
     @property
     def md(self):
-        return f'[{self.title}]({self.url}) {self.stars}'
+        return f'[{self.stars}] [{self.title}]({self.url})'
 
 
 class Course:
