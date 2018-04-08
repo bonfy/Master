@@ -48,7 +48,7 @@ class Talk:
 
     @property
     def md(self):
-        return f'[{self.title}]({self.url}) ({self.stars})'
+        return f'[{self.title}]({self.url}) {self.stars}'
 
 
 class Course:
