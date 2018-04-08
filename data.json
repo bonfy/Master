@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Rob Pike",
+        "language": "Golang",
+        "wiki": "https://en.wikipedia.org/wiki/Rob_Pike",
+        "medias": [
+            {
+                "platform": "Twitter",
+                "username": "@rob_pike",
+                "url": "https://twitter.com/rob_pike"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Concurrency Is Not Parallelism",
+                "url": "https://www.youtube.com/watch?v=cN_DpYBzKso&t=1151s",
+                "star": 5
+            }
+        ]
+    },
+    {
+        "name": "David Beazley",
+        "language": "Python",
+        "wiki": "https://en.wikipedia.org/wiki/David_M._Beazley",
+        "website": "http://www.dabeaz.com/",
+        "medias": [
+            {
+                "platform": "Twitter",
+                "username": "@dabeaz",
+                "url": "https://twitter.com/dabeaz"
+            },
+            {
+                "platform": "Youtube",
+                "username": "David Beazley",
+                "url": "https://www.youtube.com/channel/UCbNpPBMvCHr-TeJkkezog7Q"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Python Concurrency From the Ground Up: LIVE! - PyCon 2015",
+                "url": "https://www.youtube.com/watch?v=MCs5OvhV9S4&t=2225s",
+                "star": 5
+            },
+            {
+                "title": "The Other Async (Threads + Async = ❤️)",
+                "url": "https://www.youtube.com/watch?v=x1ndXuw7S0s",
+                "star": 5
+            }
+        ],
+        "courses": [
+            {
+                "platform": "o'reilly",
+                "title": "python-programming-language",
+                "url": "https://www.safaribooksonline.com/library/view/python-programming-language/9780134217314/"
+            }
+        ],
+        "books": [
+            {
+                "title": "Python Cookbook",
+                "url": "https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377"
+            }
+        ]
+    },
+    {
+        "name": "Kenneth Reitz",
+        "language": "Python",
+        "website": "https://www.kennethreitz.org/",
+        "medias": [
+            {
+                "platform": "Twitter",
+                "username": "@kennethreitz",
+                "url": "https://twitter.com/kennethreitz"
+            },
+            {
+                "platform": "Github",
+                "username": "kennethreitz",
+                "url": "https://github.com/kennethreitz"
+            }
+        ],
+        "books": [
+            {
+                "title": "The Hitchhiker’s Guide to Python",
+                "url": "http://docs.python-guide.org/en/latest/"
+            }
+        ]
+    },
+    {
+        "name": "Hsiaoming Yang",
+        "language": "Python",
+        "website": "https://lepture.com/",
+        "medias": [
+            {
+                "platform": "Twitter",
+                "username": "@lepture",
+                "url": "https://twitter.com/lepture"
+            },
+            {
+                "platform": "Github",
+                "username": "lepture",
+                "url": "https://github.com/lepture"
+            }
+        ]
+    }
+]

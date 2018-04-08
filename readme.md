@@ -1,5 +1,15 @@
 # Masters
-> list great programmers I know
+> List Great Programmers
+
+## Golang 
+
+### [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)
+
+Medias: Twitter: [@rob_pike](https://twitter.com/rob_pike)
+
+Talks:
+- [Concurrency Is Not Parallelism](https://www.youtube.com/watch?v=cN_DpYBzKso&t=1151s) (⭐⭐⭐⭐⭐)
+
 
 ## Python 
 
@@ -31,14 +41,4 @@ Books:
 ### [Hsiaoming Yang](https://lepture.com/)
 
 Medias: Twitter: [@lepture](https://twitter.com/lepture), Github: [lepture](https://github.com/lepture)
-
-## Golang 
-
-### [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)
-
-Medias: Twitter: [@rob_pike](https://twitter.com/rob_pike)
-
-Talks:
-- ['Concurrency Is Not Parallelism](https://www.youtube.com/watch?v=cN_DpYBzKso&t=1151s) (⭐⭐⭐⭐⭐)
-
 
