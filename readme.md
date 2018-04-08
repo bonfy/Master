@@ -24,6 +24,10 @@ Books:
 
 Medias: Twitter: [@kennethreitz](https://twitter.com/kennethreitz), Github: [kennethreitz](https://github.com/kennethreitz)
 
+Books:
+- [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
+
+
 ### [Hsiaoming Yang](https://lepture.com/)
 
 Medias: Twitter: [@lepture](https://twitter.com/lepture), Github: [lepture](https://github.com/lepture)
