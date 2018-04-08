@@ -44,7 +44,7 @@ class Talk:
 
     @property
     def stars(self):
-        return self.star * '\u2b50' + (5-self.star) * '\u22C6'
+        return self.star * '\u2b51' + (5-self.star) * '\u2b52'
 
     @property
     def md(self):
