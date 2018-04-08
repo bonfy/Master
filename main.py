@@ -6,12 +6,6 @@
 ###
 import json
 
-tpl = '''# Masters
-
-> Great Programmers in Each Field
-
-'''
-
 
 class Media:
 
