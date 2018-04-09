@@ -156,7 +156,7 @@ class Master:
         md_courses = ''
         md_books = ''
 
-        md_avatar = f'<img align="left" width="25" height="25" src="{self.avatar}"> '
+        md_avatar = f'<img align="left" width="30" height="30" src="{self.avatar}"> '
 
         if self.medias:
             md_medias = 'Medias: '
