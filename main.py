@@ -101,6 +101,7 @@ class Master:
         self,
         name,
         language,
+        avatar,
         wiki=None,
         website=None,
         medias=[],
@@ -110,6 +111,7 @@ class Master:
     ):
         self.name = name
         self.language = language
+        self.avatar = avatar
         self.wiki = wiki
         self.website = website
         self.medias = medias
@@ -121,6 +123,7 @@ class Master:
     def from_json(cls, js):
         name = js.get('name')
         language = js.get('language')
+        avatar = js.get('avatar')
         wiki = js.get('wiki')
         website = js.get('website')
         medias = [Media.from_json(i) for i in js.get('medias', [])]
@@ -130,6 +133,7 @@ class Master:
         return cls(
             name=name,
             language=language,
+            avatar=avatar,
             wiki=wiki,
             website=website,
             medias=medias,
@@ -151,8 +155,11 @@ class Master:
         md_talks = ''
         md_courses = ''
         md_books = ''
+
+        md_avatar = f'<img align="left" width="25" height="25" src="{self.avatar}"> '
+
         if self.medias:
-            md_medias = 'Medias: '
+            # md_medias = 'Medias: '
             md_medias += ', '.join([m.md for m in self.medias])
             md_medias += '\n\n'
         if self.talks:
@@ -170,7 +177,7 @@ class Master:
             for i in self.books:
                 md_books += f'- {i.md}\n'
             md_books += '\n\n'
-        md = f'[{self.name}]({self.homepage})\n\n{md_medias}{md_talks}{md_courses}{md_books}'
+        md = f'[{self.name}]({self.homepage})\n\n{md_avatar}{md_medias}{md_talks}{md_courses}{md_books}'
         return md
 
     def __repr__(self):
