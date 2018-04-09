@@ -27,6 +27,7 @@ class Media:
     def md(self):
         return f'{self.platform}: [{self.username}]({self.url})'
 
+
 class Star:
 
     def __init__(self, star):
@@ -34,7 +35,8 @@ class Star:
 
     @property
     def stars(self):
-        return self.star * '\u2605' + (5-self.star) * '\u2606'
+        return self.star * '\u2605' + (5 - self.star) * '\u2606'
+
 
 class Talk(Star):
 
