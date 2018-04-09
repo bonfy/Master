@@ -55,6 +55,6 @@ Books:
 
 
 ## Contributing
-Your contributions are always welcome! 
+Your contributions are always welcome!
 
 Please add the programmer you appreciate in `data.json`.

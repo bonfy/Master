@@ -215,9 +215,9 @@ class Masters:
         with open('readme.md', 'w') as f:
             f.write('# Masters\n> List Great Programmers\n\n')
             f.write(self.md)
-            f.write(
-                '## Contributing\nYour contributions are always welcome! \n\nPlease add the programmer you appreciate in `data.json`.'
-            )
+            f.write('## Contributing\n')
+            f.write('Your contributions are always welcome!\n\n')
+            f.write('Please add the programmer you appreciate in `data.json`.')
 
 
 if __name__ == '__main__':
