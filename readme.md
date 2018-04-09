@@ -1,28 +1,6 @@
 # Masters
 > List Great Programmers
 
-## Golang 
-
-### [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)
-
-Medias: Twitter: [@rob_pike](https://twitter.com/rob_pike)
-
-Talks:
-- ★★★★★ [Concurrency Is Not Parallelism](https://www.youtube.com/watch?v=cN_DpYBzKso&t=1151s)
-
-
-### [William Kennedy](https://www.ardanlabs.com/blog/)
-
-Medias: Twitter: [@goinggodotnet](https://twitter.com/goinggodotnet), Github: [goinggo](https://github.com/goinggo), Youtube: [KennedyTheClan](https://www.youtube.com/user/KennedyTheClan)
-
-Courses:
-- ★★★★☆ [Ultimate Go Programming](https://www.safaribooksonline.com/library/view/ultimate-go-programming/9780134757476/)(o'reilly)
-
-
-Books:
-- [Go In Action](https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781)
-
-
 ## Python 
 
 ### [David Beazley](http://www.dabeaz.com/)
@@ -54,3 +32,29 @@ Books:
 
 Medias: Twitter: [@lepture](https://twitter.com/lepture), Github: [lepture](https://github.com/lepture)
 
+## Golang 
+
+### [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)
+
+Medias: Twitter: [@rob_pike](https://twitter.com/rob_pike)
+
+Talks:
+- ★★★★★ [Concurrency Is Not Parallelism](https://www.youtube.com/watch?v=cN_DpYBzKso&t=1151s)
+
+
+### [William Kennedy](https://www.ardanlabs.com/blog/)
+
+Medias: Twitter: [@goinggodotnet](https://twitter.com/goinggodotnet), Github: [goinggo](https://github.com/goinggo), Youtube: [KennedyTheClan](https://www.youtube.com/user/KennedyTheClan)
+
+Courses:
+- ★★★★☆ [Ultimate Go Programming](https://www.safaribooksonline.com/library/view/ultimate-go-programming/9780134757476/)(o'reilly)
+
+
+Books:
+- [Go In Action](https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781)
+
+
+## Contributing
+Your contributions are always welcome! 
+
+Please add the programmer you appreciate in `data.json`.
