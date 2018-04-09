@@ -159,7 +159,7 @@ class Master:
         md_avatar = f'<img align="left" width="25" height="25" src="{self.avatar}"> '
 
         if self.medias:
-            # md_medias = 'Medias: '
+            md_medias = 'Medias: '
             md_medias += ', '.join([m.md for m in self.medias])
             md_medias += '\n\n'
         if self.talks:
@@ -177,7 +177,7 @@ class Master:
             for i in self.books:
                 md_books += f'- {i.md}\n'
             md_books += '\n\n'
-        md = f'[{self.name}]({self.homepage})\n\n{md_avatar}{md_medias}{md_talks}{md_courses}{md_books}'
+        md = f'{md_avatar}[{self.name}]({self.homepage})\n\n{md_medias}{md_talks}{md_courses}{md_books}'
         return md
 
     def __repr__(self):
