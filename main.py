@@ -155,9 +155,7 @@ class Master:
         md_talks = ''
         md_courses = ''
         md_books = ''
-
         md_avatar = f'<img align="left" width="30" height="30" src="{self.avatar}"> '
-
         if self.medias:
             md_medias = 'Medias: '
             md_medias += ', '.join([m.md for m in self.medias])
@@ -220,13 +218,30 @@ class Masters:
 
     def write_md(self):
         with open('readme.md', 'w') as f:
-            f.write('# Masters\n> List Great Programmers\n\n')
+            f.write(
+                '# Master\n> "Do you want to know the difference between a master and a beginner?"\n\n'
+            )
+            f.write(
+                '> "The master has failed more times than the beginner has tried."\n\n'
+            )
             f.write(self.md)
             f.write('## Contributing\n')
             f.write('Your contributions are always welcome!\n\n')
             f.write('Please add the programmer you appreciate in `data.json`.')
 
+    def write_html(self):
+        import jinja2
+
+        templateLoader = jinja2.FileSystemLoader(searchpath="./")
+        templateEnv = jinja2.Environment(loader=templateLoader)
+        TEMPLATE_FILE = "template.html"
+        template = templateEnv.get_template(TEMPLATE_FILE)
+        output = template.render(masters=self.masters)
+        with open('index.html', 'w') as f:
+            f.write(output)
+
 
 if __name__ == '__main__':
     masters = Masters.from_json_file()
     masters.write_md()
+    masters.write_html()
