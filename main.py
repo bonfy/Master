@@ -27,13 +27,21 @@ class Media:
     def md(self):
         return f'{self.platform}: [{self.username}]({self.url})'
 
+class Star:
 
-class Talk:
+    def __init__(self, star):
+        self.star = star
+
+    @property
+    def stars(self):
+        return self.star * '\u2605' + (5-self.star) * '\u2606'
+
+class Talk(Star):
 
     def __init__(self, title, url, star=5):
+        super().__init__(star=star)
         self.title = title
         self.url = url
-        self.star = star
 
     @classmethod
     def from_json(cls, js):
@@ -43,17 +51,14 @@ class Talk:
         return cls(title=title, url=url, star=star)
 
     @property
-    def stars(self):
-        return self.star * '\u2605' + (5-self.star) * '\u2606'
-
-    @property
     def md(self):
         return f'[{self.stars}] [{self.title}]({self.url})'
 
 
-class Course:
+class Course(Star):
 
-    def __init__(self, title, url, platform):
+    def __init__(self, title, url, platform, star=5):
+        super().__init__(star=star)
         self.title = title
         self.url = url
         self.platform = platform
@@ -63,11 +68,12 @@ class Course:
         title = js.get('title')
         url = js.get('url')
         platform = js.get('platform')
-        return cls(title=title, url=url, platform=platform)
+        star = js.get('star', 5)
+        return cls(title=title, url=url, platform=platform, star=star)
 
     @property
     def md(self):
-        return f'[{self.title}]({self.url})({self.platform})'
+        return f'[{self.stars}] [{self.title}]({self.url})({self.platform})'
 
 
 class Book:
