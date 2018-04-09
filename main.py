@@ -52,7 +52,7 @@ class Talk(Star):
 
     @property
     def md(self):
-        return f'[{self.stars}] [{self.title}]({self.url})'
+        return f'{self.stars} [{self.title}]({self.url})'
 
 
 class Course(Star):
@@ -73,7 +73,7 @@ class Course(Star):
 
     @property
     def md(self):
-        return f'[{self.stars}] [{self.title}]({self.url})({self.platform})'
+        return f'{self.stars} [{self.title}]({self.url})({self.platform})'
 
 
 class Book:

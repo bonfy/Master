@@ -50,8 +50,9 @@
         "courses": [
             {
                 "platform": "o'reilly",
-                "title": "python-programming-language",
-                "url": "https://www.safaribooksonline.com/library/view/python-programming-language/9780134217314/"
+                "title": "Python Programming Language",
+                "url": "https://www.safaribooksonline.com/library/view/python-programming-language/9780134217314/",
+                "star": 5
             }
         ],
         "books": [
@@ -98,6 +99,43 @@
                 "platform": "Github",
                 "username": "lepture",
                 "url": "https://github.com/lepture"
+            }
+        ]
+    },
+    {
+        "name": "William Kennedy",
+        "language": "Golang",
+        "website": "https://www.ardanlabs.com/blog/",
+        "wiki": "https://en.wikipedia.org/wiki/William_Kennedy_(author)",
+        "medias": [
+            {
+                "platform": "Twitter",
+                "username": "@goinggodotnet",
+                "url": "https://twitter.com/goinggodotnet"
+            },
+            {
+                "platform": "Github",
+                "username": "goinggo",
+                "url": "https://github.com/goinggo"
+            },
+            {
+                "platform": "Youtube",
+                "username": "KennedyTheClan",
+                "url": "https://www.youtube.com/user/KennedyTheClan"
+            }
+        ],
+        "courses": [
+            {
+                "platform": "o'reilly",
+                "title": "Ultimate Go Programming",
+                "url": "https://www.safaribooksonline.com/library/view/ultimate-go-programming/9780134757476/",
+                "star": 4
+            }
+        ],
+        "books": [
+            {
+                "title": "Go In Action",
+                "url": "https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781"
             }
         ]
     }
