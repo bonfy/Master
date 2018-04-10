@@ -189,12 +189,12 @@ class Masters:
 
     @classmethod
     def from_json_file(cls, filename='data.json'):
-        masters = []
+        self = cls()
         with open(filename, 'r') as f:
             items = json.load(f)
         for item in items:
-            masters.append(Master.from_json(item))
-        return cls(masters=masters)
+            self.masters.append(Master.from_json(item))
+        return self
 
     def __getitem__(self, idx):
         return self.masters[idx]
